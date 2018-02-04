@@ -4,7 +4,7 @@ unofficial wrapper for infobip api
 ## usage
 
 ```
-const infobip-api = require('infobip-unofficial-api')({key: 'api_key'});
+const infobip_api = require('infobip-unofficial-api')({user: 'username', password: 'password'});
 
 const message = {
   to: 'to number',
@@ -12,7 +12,7 @@ const message = {
   message: 'string message'
 }
 
-infobip-api.send_sms(message, function(err, res){
+infobip_api.send_sms(message, function(err, res){
   if (!err) {
     console.log(res);
   }

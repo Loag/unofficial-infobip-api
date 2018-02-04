@@ -1,6 +1,6 @@
 {
   "name": "infobip-unofficial-api",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "description": "unofficial api consumer for infobip api",
   "main": "index.js",
   "scripts": {
