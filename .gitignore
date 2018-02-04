@@ -4,3 +4,4 @@ jspm_packages
 
 .DS_STORE
 .log
+.nyc_output
